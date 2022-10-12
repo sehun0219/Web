@@ -5,6 +5,7 @@
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
   --color-pink: #fe918d;
+  --color-light-blue: #6d90ff;
   --color-dark-pink: #ff6863;
   --color-black: #4d4d4d;
   --color-dark-grey: #4d4d4d;
@@ -14,6 +15,7 @@
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-black: #000000;
+  --color-purpleBlue: #4948f9;
 
   /* Font size */
   --font-large: 48px;
@@ -54,6 +56,13 @@ li {
   list-style: none;
 }
 
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 /* Typography */
 h1 {
   font-size: var(--font-large);
@@ -87,7 +96,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  background-color: var(--color-pink);
+  background-color: var(--color-purpleBlue);
 }
 
 .navbar__logo {
@@ -112,5 +121,35 @@ p {
 }
 
 .navbar__menu__item:hover {
-  background-color: var(--color-dark-pink);
+  background-color: var(--color-light-blue);
+}
+
+/* Home */
+#home {
+  background: url("imgs/HomeBackGround/Purple Modern.png") center/cover
+    no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 315px;
+  height: 390px;
+  border-radius: 50%;
+  border: 1px solid var(--color-blue);
+}
+
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+
+.home__contact {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
 }

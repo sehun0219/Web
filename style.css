@@ -98,7 +98,6 @@ p {
 #navbar {
   position: fixed;
   width: 100%;
-  height: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -531,8 +530,6 @@ p {
 
   .navbar__menu.open {
     display: block;
-    background-color: var(--color-purpleBlue);
-    margin-top: 5px;
   }
 
   .section {

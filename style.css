@@ -358,7 +358,8 @@ p {
   width: 280px;
   height: 250px;
   margin: 2px;
-  background-color: var(--color-orange);
+  background-color: var(--color-light-grey);
+  border-radius: var(--size-border-radius);
 }
 
 .project.invisible {
@@ -366,8 +367,8 @@ p {
 }
 
 .project__img {
-  width: 98%;
-  height: 98%;
+  width: 50%;
+  height: 50%;
   align-self: center;
 }
 

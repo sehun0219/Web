@@ -119,6 +119,7 @@ p {
 }
 .navbar__menu {
   display: flex;
+  margin: 0;
 }
 
 .navbar__menu__item {
@@ -134,7 +135,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-  border: 1px solid var(--color-white);
+  border-color: var(--color-white);
   background-color: var(--color-light-blue);
 }
 
